@@ -67,10 +67,13 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    //Adding dependencies
+    //Adding dependencies for RetroFit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // Adding dependencies for Coil
+    implementation(libs.coil.compose)
 }
