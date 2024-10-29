@@ -1,6 +1,6 @@
-package com.example.retrofitinclassdemo.retrofit
+package com.example.pokemonapp.retrofit
 
-import com.example.retrofitinclassdemo.models.FilmResponse
+import com.example.pokemonapp.models.FilmResponse
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET

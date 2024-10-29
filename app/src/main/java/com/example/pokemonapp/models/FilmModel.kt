@@ -1,4 +1,4 @@
-package com.example.retrofitinclassdemo.models
+package com.example.pokemonapp.models
 
 data class Film(
     val title: String,
